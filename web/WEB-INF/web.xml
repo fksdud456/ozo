@@ -32,6 +32,20 @@
 		<param-value>/WEB-INF/config/spring.xml</param-value>
 	</context-param>
 
+	<filter>
+		<filter-name>enc</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>EUC-KR</param-value>
+		</init-param>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>enc</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
 	<listener>
 		<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
 	</listener>
