@@ -1,9 +1,9 @@
 # ozo
 
-$ Documents
+ Documents
 
-$ How to start developing ozo?
+ How to start developing ozo?
 
 
 # Clone the repository.
-$ git clone https://github.com/ozo.git
+ git clone https://github.com/ozo.git
